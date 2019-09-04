@@ -18,7 +18,7 @@ function CheckConnectionInfo($info)
 
 Write-Host "Log file location: $pwd"
 Write-Host ""
-$thing = Read-Host("Enter an IP address")
+$thing = Read-Host("Enter an IP address or hostname")
 do{
   [int]$waitTime = Read-host("Enter a wait time in seconds greater than 1")
 
