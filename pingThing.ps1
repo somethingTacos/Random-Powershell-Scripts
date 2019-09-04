@@ -1,3 +1,4 @@
+Clear
 $ConnectionLostCount = 0
 $lostTicker = 10
 function CheckConnectionInfo($info)
